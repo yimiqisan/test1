@@ -1,2 +1,4 @@
 www:
   type: static
+data:
+  type: mongodb
