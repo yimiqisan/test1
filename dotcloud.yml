@@ -1,5 +1,10 @@
 www:
   type: python
+  approot: xiha
+base:
+  type: python-worker
   approot: huwai
-data:
+datastore:
   type: mongodb
+cache:
+  type: redis
